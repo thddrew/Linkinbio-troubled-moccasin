@@ -1,71 +1,71 @@
 export default {
-  container: {
-    className: "",
+  "container": {
+    "className": "bg-[#171918] text-white"
   },
-  profile: {
-    avatar: {
-      className: "",
-      style: {},
+  "profile": {
+    "avatar": {
+      "style": {},
+      "className": "rounded-full"
     },
-    header: {
-      className: "",
-      style: {},
+    "header": {
+      "style": {},
+      "className": "text-lg"
     },
-    description: {
-      className: "",
-      style: {},
-    },
+    "description": {
+      "style": {},
+      "className": ""
+    }
   },
-  socials: {
-    icon: {
-      width: 24,
-      height: 24,
-      color: "",
-      className: "",
-      style: {},
-    },
+  "socials": {
+    "icon": {
+      "color": "white",
+      "width": 24,
+      "height": 24,
+      "style": {},
+      "className": ""
+    }
   },
-  links: {
-    background: {
-      className: "",
+  "links": {
+    "thumbnailEmoji": {
+      "className": ""
     },
-    button: {
-      className: "",
-    },
-    thumbnailEmoji: {
-      className: "",
-    },
-    thumbnailImage: {
-      className: "",
-      sm: {
-        height: 0,
-        width: 0,
-        className: "",
+    "thumbnailImage": {
+      "md": {
+        "height": 100,
+        "width": 100,
+        "className": ""
       },
-      md: {
-        height: 0,
-        width: 0,
-        className: "",
+      "sm": {
+        "height": 35,
+        "width": 35,
+        "className": ""
       },
+      "className": "rounded-lg"
     },
-    font: {
-      header: {
-        className: "",
-      },
-      body: {
-        className: "",
-      },
+    "background": {
+      "className": "border border-[#515151] border-solid bg-transparent rounded-2xl"
     },
+    "button": {
+      "className": "bg-transparent hover:bg-transparent hover:text-inherit border-[#515151] rounded-lg"
+    },
+    "font": {
+      "header": {
+        "className": ""
+      },
+      "body": {
+        "className": ""
+      }
+    }
   },
-  font: {
-    header: {
-      className: "",
+  "font": {
+    "header": {
+      "className": "font-[(var(--font-header))]"
     },
-    body: {
-      className: "",
+    "body": {
+      "className": "font-[(var(--font-body))]"
     },
-    button: {
-      className: "",
-    },
-  },
-};
+    "button": {
+      "className": "font-[(var(--font-button))]"
+    }
+  }
+}
